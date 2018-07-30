@@ -1,0 +1,643 @@
+/*
+    Color var
+*/
+
+.color-1,
+.hover-color-1:hover,
+.active-color-1:active,
+.focus-color-1:focus,
+.visited-color-1:visited
+{
+    color: #730961;
+}
+.bg-color-1,
+.hover-bg-color-1:hover,
+.active-bg-color-1:active,
+.focus-bg-color-1:focus,
+.visited-bg-color-1:visited
+{
+    background-color: #730961;
+}
+
+.color-2,
+.hover-color-2:hover,
+.active-color-2:active,
+.focus-color-2:focus,
+.visited-color-2:visited
+{
+    color: #f4f3ef;
+}
+.bg-color-2,
+.hover-bg-color-2:hover,
+.active-bg-color-2:active,
+.focus-bg-color-2:focus,
+.visited-bg-color-2:visited
+{
+    background-color: #f4f3ef;
+}
+
+.color-3,
+.hover-color-3:hover,
+.active-color-3:active,
+.focus-color-3:focus,
+.visited-color-3:visited
+{
+    color: #1a1817;
+}
+.bg-color-3,
+.hover-bg-color-3:hover,
+.active-bg-color-3:active,
+.focus-bg-color-3:focus,
+.visited-bg-color-3:visited
+{
+    background-color: #1a1817;
+}
+
+
+
+/*
+    color const
+ */
+
+.white,
+.hover-white:hover,
+.active-white:active,
+.focus-white:focus,
+.visited-white:visited
+{
+    color: #fff;
+}
+.bg-white,
+.hover-bg-white:hover,
+.active-bg-white:active,
+.focus-bg-white:focus,
+.visited-bg-white:visited
+{
+    background-color: #fff;
+}
+
+.gray-1,
+.hover-gray-1:hover,
+.active-gray-1:active,
+.focus-gray-1:focus,
+.visited-gray-1:visited
+{
+    color: #f9f9f9;
+}
+.bg-gray-1,
+.hover-bg-gray-1:hover,
+.active-bg-gray-1:active,
+.focus-bg-gray-1:focus,
+.visited-bg-gray-1:visited
+{
+    background-color: #f9f9f9;
+}
+
+.gray-2,
+.hover-gray-2:hover,
+.active-gray-2:active,
+.focus-gray-2:focus,
+.visited-gray-2:visited
+{
+    color: #f2f2f2;
+}
+.bg-gray-2,
+.hover-bg-gray-2:hover,
+.active-bg-gray-2:active,
+.focus-bg-gray-2:focus,
+.visited-bg-gray-2:visited
+{
+    background-color: #f2f2f2;
+}
+
+.gray-3,
+.hover-gray-3:hover,
+.active-gray-3:active,
+.focus-gray-3:focus,
+.visited-gray-3:visited
+{
+    color: #eeeeee;
+}
+.bg-gray-3,
+.hover-bg-gray-3:hover,
+.active-bg-gray-3:active,
+.focus-bg-gray-3:focus,
+.visited-bg-gray-3:visited
+{
+    background-color: #eeeeee;
+}
+
+.gray-4,
+.hover-gray-4:hover,
+.active-gray-4:active,
+.focus-gray-4:focus,
+.visited-gray-4:visited
+{
+    color: #e5e5e5;
+}
+.bg-gray-4,
+.hover-bg-gray-4:hover,
+.active-bg-gray-4:active,
+.focus-bg-gray-4:focus,
+.visited-bg-gray-4:visited
+{
+    background-color: #e5e5e5;
+}
+
+.gray-5,
+.hover-gray-5:hover,
+.active-gray-5:active,
+.focus-gray-5:focus,
+.visited-gray-5:visited
+{
+    color: #cbcbcb;
+}
+.bg-gray-5,
+.hover-bg-gray-5:hover,
+.active-bg-gray-5:active,
+.focus-bg-gray-5:focus,
+.visited-bg-gray-5:visited
+{
+    background-color: #cbcbcb;
+}
+
+.gray-6,
+.hover-gray-6:hover,
+.active-gray-6:active,
+.focus-gray-6:focus,
+.visited-gray-6:visited
+{
+    color: #b2b2b2;
+}
+.bg-gray-6,
+.hover-bg-gray-6:hover,
+.active-bg-gray-6:active,
+.focus-bg-gray-6:focus,
+.visited-bg-gray-6:visited
+{
+    background-color: #b2b2b2;
+}
+
+.gray-7,
+.hover-gray-7:hover,
+.active-gray-7:active,
+.focus-gray-7:focus,
+.visited-gray-7:visited
+{
+    color: #989898;
+}
+.bg-gray-7,
+.hover-bg-gray-7:hover,
+.active-bg-gray-7:active,
+.focus-bg-gray-7:focus,
+.visited-bg-gray-7:visited
+{
+    background-color: #989898;
+}
+
+.gray-8,
+.hover-gray-8:hover,
+.active-gray-8:active,
+.focus-gray-8:focus,
+.visited-gray-8:visited
+{
+    color: #7f7f7f;
+}
+.bg-gray-8,
+.hover-bg-gray-8:hover,
+.active-bg-gray-8:active,
+.focus-bg-gray-8:focus,
+.visited-bg-gray-8:visited
+{
+    background-color: #7f7f7f;
+}
+
+.gray-9,
+.hover-gray-9:hover,
+.active-gray-9:active,
+.focus-gray-9:focus,
+.visited-gray-9:visited
+{
+    color: #656565;
+}
+.bg-gray-9,
+.hover-bg-gray-9:hover,
+.active-bg-gray-9:active,
+.focus-bg-gray-9:focus,
+.visited-bg-gray-9:visited
+{
+    background-color: #656565;
+}
+
+.gray-10,
+.hover-gray-10:hover,
+.active-gray-10:active,
+.focus-gray-10:focus,
+.visited-gray-10:visited
+{
+    color: #4c4c4c;
+}
+.bg-gray-10,
+.hover-bg-gray-10:hover,
+.active-bg-gray-10:active,
+.focus-bg-gray-10:focus,
+.visited-bg-gray-10:visited
+{
+    background-color: #4c4c4c;
+}
+
+.dark,
+.hover-dark:hover,
+.active-dark:active,
+.focus-dark:focus,
+.visited-dark:visited
+{
+    color: #282828;
+}
+.bg-dark,
+.hover-bg-dark:hover,
+.active-bg-dark:active,
+.focus-bg-dark:focus,
+.visited-bg-dark:visited
+{
+    background-color: #282828 !important;
+}
+
+.black,
+.hover-black:hover,
+.active-black:active,
+.focus-black:focus,
+.visited-black:visited
+{
+    color: #000;
+}
+.bg-black,
+.hover-bg-black:hover,
+.active-bg-black:active,
+.focus-bg-black:focus,
+.visited-bg-black:visited
+{
+    background-color: #000;
+}
+
+.yellow,
+.hover-yellow:hover,
+.active-yellow:active,
+.focus-yellow:focus,
+.visited-yellow:visited
+{
+    color: #e8c96a;
+}
+.bg-yellow,
+.hover-bg-yellow:hover,
+.active-bg-yellow:active,
+.focus-bg-yellow:focus,
+.visited-bg-yellow:visited
+{
+    background-color: #e8c96a;
+}
+
+.red,
+.hover-red:hover,
+.active-red:active,
+.focus-red:focus,
+.visited-red:visited
+{
+    color: #e86a6b;
+}
+.bg-red,
+.hover-bg-red:hover,
+.active-bg-red:active,
+.focus-bg-red:focus,
+.visited-bg-red:visited
+{
+    background-color: #e86a6b;
+}
+
+.purple,
+.hover-purple:hover,
+.active-purple:active,
+.focus-purple:focus,
+.visited-purple:visited
+{
+    color: #5D4157;
+}
+.bg-purple,
+.hover-bg-purple:hover,
+.active-bg-purple:active,
+.focus-bg-purple:focus,
+.visited-bg-purple:visited
+{
+    background-color: #5D4157;
+}
+
+.pink,
+.hover-pink:hover,
+.active-pink:active,
+.focus-pink:focus,
+.visited-pink:visited
+{
+    color: #F89FA1;
+}
+.bg-pink,
+.hover-bg-pink:hover,
+.active-bg-pink:active,
+.focus-bg-pink:focus,
+.visited-bg-pink:visited
+{
+    background-color: #F89FA1;
+}
+
+.google,
+.hover-google:hover,
+.active-google:active,
+.focus-google:focus,
+.visited-google:visited
+{
+    color: #DD4B39;
+}
+.bg-google,
+.hover-bg-google:hover,
+.active-bg-google:active,
+.focus-bg-google:focus,
+.visited-bg-google:visited
+{
+    background-color: #DD4B39;
+}
+
+.linkedin,
+.hover-linkedin:hover,
+.active-linkedin:active,
+.focus-linkedin:focus,
+.visited-linkedin:visited
+{
+    color: #0E76A8;
+}
+.bg-linkedin,
+.hover-bg-linkedin:hover,
+.active-bg-linkedin:active,
+.focus-bg-linkedin:focus,
+.visited-bg-linkedin:visited
+{
+    background-color: #0E76A8;
+}
+
+.twitter,
+.hover-twitter:hover,
+.active-twitter:active,
+.focus-twitter:focus,
+.visited-twitter:visited
+{
+    color: #00ACEE;
+}
+.bg-twitter,
+.hover-bg-twitter:hover,
+.active-bg-twitter:active,
+.focus-bg-twitter:focus,
+.visited-bg-twitter:visited
+{
+    background-color: #00ACEE;
+}
+
+.youtube,
+.hover-youtube:hover,
+.active-youtube:active,
+.focus-youtube:focus,
+.visited-youtube:visited
+{
+    color: #C4302B;
+}
+.bg-youtube,
+.hover-bg-youtube:hover,
+.active-bg-youtube:active,
+.focus-bg-youtube:focus,
+.visited-bg-youtube:visited
+{
+    background-color: #C4302B;
+}
+
+.vimeo,
+.hover-vimeo:hover,
+.active-vimeo:active,
+.focus-vimeo:focus,
+.visited-vimeo:visited
+{
+    color: #86C9EF;
+}
+.bg-vimeo,
+.hover-bg-vimeo:hover,
+.active-bg-vimeo:active,
+.focus-bg-vimeo:focus,
+.visited-bg-vimeo:visited
+{
+    background-color: #86C9EF;
+}
+
+.whatsapp,
+.hover-whatsapp:hover,
+.active-whatsapp:active,
+.focus-whatsapp:focus,
+.visited-whatsapp:visited
+{
+    color: #1ebea5;
+}
+.bg-whatsapp,
+.hover-bg-whatsapp:hover,
+.active-bg-whatsapp:active,
+.focus-bg-whatsapp:focus,
+.visited-bg-whatsapp:visited
+{
+    background-color: #1ebea5;
+}
+.instagran,
+.hover-instagran:hover,
+.active-instagran:active,
+.focus-instagran:focus,
+.visited-instagran:visited
+{
+
+    color : #E12F67; /* Old browsers */
+    color: -webkit-gradient(linear, 333 0, 0 337, from(#8043af), color-stop(0.029, #8442aa), color-stop(0.029, #8740a9), color-stop(0.042, #8842a8), color-stop(0.059, #8d3fa7), color-stop(0.067, #8d41a4), color-stop(0.164, #9d3d9c), color-stop(0.164, #9f3c9a), color-stop(0.202, #a63b96), color-stop(0.202, #a73a97), color-stop(0.23, #a83b96), color-stop(0.23, #aa3a92), color-stop(0.253, #ac3990), color-stop(0.312, #b63a8b), color-stop(0.35, #b93a88), color-stop(0.35, #bb3986), color-stop(0.374, #bc3986), color-stop(0.374, #be3884), color-stop(0.397, #c03a83), color-stop(0.403, #c13c83), color-stop(0.412, #c4397f), color-stop(0.443, #c63b7a), color-stop(0.469, #ca3d75), color-stop(0.475, #cb3c75), color-stop(0.494, #ca3e74), color-stop(0.494, #cc3d74), color-stop(0.503, #ce3e75), color-stop(0.503, #cf3d74), color-stop(0.591, #d84466), color-stop(0.591, #d94367), color-stop(0.904, #ef6744), color-stop(0.951, #f26a43), color-stop(0.951, #f26c42), color-stop(0.978, #f3703f), color-stop(0.978, #f46f40), color-stop(0.997, #f57041), color-stop(0.997, #f47141), to(#f47141));
+    color: -webkit-linear-gradient(225.34206029135854deg, #8043af, #8442aa 2.9%, #8740a9 2.9%, #8842a8 4.2%, #8d3fa7 5.9%, #8d41a4 6.7%, #9d3d9c 16.4%, #9f3c9a 16.4%, #a63b96 20.2%, #a73a97 20.2%, #a83b96 23%, #aa3a92 23%, #ac3990 25.3%, #b63a8b 31.2%, #b93a88 35%, #bb3986 35%, #bc3986 37.4%, #be3884 37.4%, #c03a83 39.7%, #c13c83 40.3%, #c4397f 41.2%, #c63b7a 44.3%, #ca3d75 46.9%, #cb3c75 47.5%, #ca3e74 49.4%, #cc3d74 49.4%, #ce3e75 50.3%, #cf3d74 50.3%, #d84466 59.1%, #d94367 59.1%, #ef6744 90.4%, #f26a43 95.1%, #f26c42 95.1%, #f3703f 97.8%, #f46f40 97.8%, #f57041 99.7%, #f47141 99.7%, #f47141);
+    color: -moz-linear-gradient(225.34206029135854deg, #8043af, #8442aa 2.9%, #8740a9 2.9%, #8842a8 4.2%, #8d3fa7 5.9%, #8d41a4 6.7%, #9d3d9c 16.4%, #9f3c9a 16.4%, #a63b96 20.2%, #a73a97 20.2%, #a83b96 23%, #aa3a92 23%, #ac3990 25.3%, #b63a8b 31.2%, #b93a88 35%, #bb3986 35%, #bc3986 37.4%, #be3884 37.4%, #c03a83 39.7%, #c13c83 40.3%, #c4397f 41.2%, #c63b7a 44.3%, #ca3d75 46.9%, #cb3c75 47.5%, #ca3e74 49.4%, #cc3d74 49.4%, #ce3e75 50.3%, #cf3d74 50.3%, #d84466 59.1%, #d94367 59.1%, #ef6744 90.4%, #f26a43 95.1%, #f26c42 95.1%, #f3703f 97.8%, #f46f40 97.8%, #f57041 99.7%, #f47141 99.7%, #f47141);
+    color: -o-linear-gradient(225.34206029135854deg, #8043af, #8442aa 2.9%, #8740a9 2.9%, #8842a8 4.2%, #8d3fa7 5.9%, #8d41a4 6.7%, #9d3d9c 16.4%, #9f3c9a 16.4%, #a63b96 20.2%, #a73a97 20.2%, #a83b96 23%, #aa3a92 23%, #ac3990 25.3%, #b63a8b 31.2%, #b93a88 35%, #bb3986 35%, #bc3986 37.4%, #be3884 37.4%, #c03a83 39.7%, #c13c83 40.3%, #c4397f 41.2%, #c63b7a 44.3%, #ca3d75 46.9%, #cb3c75 47.5%, #ca3e74 49.4%, #cc3d74 49.4%, #ce3e75 50.3%, #cf3d74 50.3%, #d84466 59.1%, #d94367 59.1%, #ef6744 90.4%, #f26a43 95.1%, #f26c42 95.1%, #f3703f 97.8%, #f46f40 97.8%, #f57041 99.7%, #f47141 99.7%, #f47141);
+    color: linear-gradient(224.65793970864146deg, #8043af, #8442aa 2.9%, #8740a9 2.9%, #8842a8 4.2%, #8d3fa7 5.9%, #8d41a4 6.7%, #9d3d9c 16.4%, #9f3c9a 16.4%, #a63b96 20.2%, #a73a97 20.2%, #a83b96 23%, #aa3a92 23%, #ac3990 25.3%, #b63a8b 31.2%, #b93a88 35%, #bb3986 35%, #bc3986 37.4%, #be3884 37.4%, #c03a83 39.7%, #c13c83 40.3%, #c4397f 41.2%, #c63b7a 44.3%, #ca3d75 46.9%, #cb3c75 47.5%, #ca3e74 49.4%, #cc3d74 49.4%, #ce3e75 50.3%, #cf3d74 50.3%, #d84466 59.1%, #d94367 59.1%, #ef6744 90.4%, #f26a43 95.1%, #f26c42 95.1%, #f3703f 97.8%, #f46f40 97.8%, #f57041 99.7%, #f47141 99.7%, #f47141);
+}
+.bg-instagran,
+.hover-bg-instagran:hover,
+.active-bg-instagran:active,
+.focus-bg-instagran:focus,
+.visited-bg-instagran:visited
+{
+    background : #E12F67; /* Old browsers */
+    background: -webkit-gradient(linear, 333 0, 0 337, from(#8043af), color-stop(0.029, #8442aa), color-stop(0.029, #8740a9), color-stop(0.042, #8842a8), color-stop(0.059, #8d3fa7), color-stop(0.067, #8d41a4), color-stop(0.164, #9d3d9c), color-stop(0.164, #9f3c9a), color-stop(0.202, #a63b96), color-stop(0.202, #a73a97), color-stop(0.23, #a83b96), color-stop(0.23, #aa3a92), color-stop(0.253, #ac3990), color-stop(0.312, #b63a8b), color-stop(0.35, #b93a88), color-stop(0.35, #bb3986), color-stop(0.374, #bc3986), color-stop(0.374, #be3884), color-stop(0.397, #c03a83), color-stop(0.403, #c13c83), color-stop(0.412, #c4397f), color-stop(0.443, #c63b7a), color-stop(0.469, #ca3d75), color-stop(0.475, #cb3c75), color-stop(0.494, #ca3e74), color-stop(0.494, #cc3d74), color-stop(0.503, #ce3e75), color-stop(0.503, #cf3d74), color-stop(0.591, #d84466), color-stop(0.591, #d94367), color-stop(0.904, #ef6744), color-stop(0.951, #f26a43), color-stop(0.951, #f26c42), color-stop(0.978, #f3703f), color-stop(0.978, #f46f40), color-stop(0.997, #f57041), color-stop(0.997, #f47141), to(#f47141));
+    background: -webkit-linear-gradient(225.34206029135854deg, #8043af, #8442aa 2.9%, #8740a9 2.9%, #8842a8 4.2%, #8d3fa7 5.9%, #8d41a4 6.7%, #9d3d9c 16.4%, #9f3c9a 16.4%, #a63b96 20.2%, #a73a97 20.2%, #a83b96 23%, #aa3a92 23%, #ac3990 25.3%, #b63a8b 31.2%, #b93a88 35%, #bb3986 35%, #bc3986 37.4%, #be3884 37.4%, #c03a83 39.7%, #c13c83 40.3%, #c4397f 41.2%, #c63b7a 44.3%, #ca3d75 46.9%, #cb3c75 47.5%, #ca3e74 49.4%, #cc3d74 49.4%, #ce3e75 50.3%, #cf3d74 50.3%, #d84466 59.1%, #d94367 59.1%, #ef6744 90.4%, #f26a43 95.1%, #f26c42 95.1%, #f3703f 97.8%, #f46f40 97.8%, #f57041 99.7%, #f47141 99.7%, #f47141);
+    background: -moz-linear-gradient(225.34206029135854deg, #8043af, #8442aa 2.9%, #8740a9 2.9%, #8842a8 4.2%, #8d3fa7 5.9%, #8d41a4 6.7%, #9d3d9c 16.4%, #9f3c9a 16.4%, #a63b96 20.2%, #a73a97 20.2%, #a83b96 23%, #aa3a92 23%, #ac3990 25.3%, #b63a8b 31.2%, #b93a88 35%, #bb3986 35%, #bc3986 37.4%, #be3884 37.4%, #c03a83 39.7%, #c13c83 40.3%, #c4397f 41.2%, #c63b7a 44.3%, #ca3d75 46.9%, #cb3c75 47.5%, #ca3e74 49.4%, #cc3d74 49.4%, #ce3e75 50.3%, #cf3d74 50.3%, #d84466 59.1%, #d94367 59.1%, #ef6744 90.4%, #f26a43 95.1%, #f26c42 95.1%, #f3703f 97.8%, #f46f40 97.8%, #f57041 99.7%, #f47141 99.7%, #f47141);
+    background: -o-linear-gradient(225.34206029135854deg, #8043af, #8442aa 2.9%, #8740a9 2.9%, #8842a8 4.2%, #8d3fa7 5.9%, #8d41a4 6.7%, #9d3d9c 16.4%, #9f3c9a 16.4%, #a63b96 20.2%, #a73a97 20.2%, #a83b96 23%, #aa3a92 23%, #ac3990 25.3%, #b63a8b 31.2%, #b93a88 35%, #bb3986 35%, #bc3986 37.4%, #be3884 37.4%, #c03a83 39.7%, #c13c83 40.3%, #c4397f 41.2%, #c63b7a 44.3%, #ca3d75 46.9%, #cb3c75 47.5%, #ca3e74 49.4%, #cc3d74 49.4%, #ce3e75 50.3%, #cf3d74 50.3%, #d84466 59.1%, #d94367 59.1%, #ef6744 90.4%, #f26a43 95.1%, #f26c42 95.1%, #f3703f 97.8%, #f46f40 97.8%, #f57041 99.7%, #f47141 99.7%, #f47141);
+    background: linear-gradient(224.65793970864146deg, #8043af, #8442aa 2.9%, #8740a9 2.9%, #8842a8 4.2%, #8d3fa7 5.9%, #8d41a4 6.7%, #9d3d9c 16.4%, #9f3c9a 16.4%, #a63b96 20.2%, #a73a97 20.2%, #a83b96 23%, #aa3a92 23%, #ac3990 25.3%, #b63a8b 31.2%, #b93a88 35%, #bb3986 35%, #bc3986 37.4%, #be3884 37.4%, #c03a83 39.7%, #c13c83 40.3%, #c4397f 41.2%, #c63b7a 44.3%, #ca3d75 46.9%, #cb3c75 47.5%, #ca3e74 49.4%, #cc3d74 49.4%, #ce3e75 50.3%, #cf3d74 50.3%, #d84466 59.1%, #d94367 59.1%, #ef6744 90.4%, #f26a43 95.1%, #f26c42 95.1%, #f3703f 97.8%, #f46f40 97.8%, #f57041 99.7%, #f47141 99.7%, #f47141);
+}
+
+
+.facebook,
+.hover-facebook:hover,
+.active-facebook:active,
+.focus-facebook:focus,
+.visited-facebook:visited
+{
+    color: #3B5998;
+}
+.bg-facebook,
+.hover-bg-facebook:hover,
+.active-bg-facebook:active,
+.focus-bg-facebook:focus,
+.visited-bg-facebook:visited
+{
+    background-color: #3B5998;
+}
+
+.paypal,
+.hover-paypal:hover,
+.active-paypal:active,
+.focus-paypal:focus,
+.visited-paypal:visited
+{
+    color: #00588B;
+}
+.bg-paypal,
+.hover-bg-paypal:hover,
+.active-bg-paypal:active,
+.focus-bg-paypal:focus,
+.visited-bg-paypal:visited
+{
+    background-color: #00588B;
+}
+
+
+
+
+
+
+
+
+
+
+
+.opacity-1,
+.opacity-2,
+.opacity-3,
+.opacity-4,
+.opacity-5,
+.opacity-6,
+.opacity-7,
+.opacity-8,
+.opacity-9,
+.opacity-10
+{
+    -webkit-transition: .2s;
+    -moz-transition: .2s;
+    -ms-transition: .2s;
+    -o-transition: .2s;
+    transition: .2s;
+}
+
+
+.opacity-1,
+.hover-opacity-1:hover,
+.active-opacity-1:active,
+.focus-opacity-1:focus,
+.visited-opacity-1:visited
+{
+    filter:alpha(opacity=10);
+    -moz-opacity:0.1;
+    opacity: 0.1;
+}
+.opacity-2,
+.hover-opacity-2:hover,
+.active-opacity-2:active,
+.focus-opacity-2:focus,
+.visited-opacity-2:visited
+{
+    filter:alpha(opacity=20);
+    -moz-opacity:0.2;
+    opacity: 0.2;
+}
+.opacity-3,
+.hover-opacity-3:hover,
+.active-opacity-3:active,
+.focus-opacity-3:focus,
+.visited-opacity-3:visited
+{
+    filter:alpha(opacity=30);
+    -moz-opacity:0.3;
+    opacity: 0.3;
+}
+.opacity-4,
+.hover-opacity-4:hover,
+.active-opacity-4:active,
+.focus-opacity-4:focus,
+.visited-opacity-4:visited
+{
+    filter:alpha(opacity=40);
+    -moz-opacity:0.4;
+    opacity: 0.4;
+}
+.opacity-5,
+.hover-opacity-5:hover,
+.active-opacity-5:active,
+.focus-opacity-5:focus,
+.visited-opacity-5:visited
+{
+    filter:alpha(opacity=50);
+    -moz-opacity:0.5;
+    opacity: 0.5;
+}
+.opacity-6,
+.hover-opacity-6:hover,
+.active-opacity-6:active,
+.focus-opacity-6:focus,
+.visited-opacity-6:visited
+{
+    filter:alpha(opacity=60);
+    -moz-opacity:0.6;
+    opacity: 0.6;
+}
+.opacity-7,
+.hover-opacity-7:hover,
+.active-opacity-7:active,
+.focus-opacity-7:focus,
+.visited-opacity-7:visited
+{
+    filter:alpha(opacity=70);
+    -moz-opacity:0.7;
+    opacity: 0.7;
+}
+.opacity-8,
+.hover-opacity-8:hover,
+.active-opacity-8:active,
+.focus-opacity-8:focus,
+.visited-opacity-8:visited
+{
+    filter:alpha(opacity=80);
+    -moz-opacity:0.8;
+    opacity: 0.8;
+}
+.opacity-9,
+.hover-opacity-9:hover,
+.active-opacity-9:active,
+.focus-opacity-9:focus,
+.visited-opacity-9:visited
+{
+    filter:alpha(opacity=90);
+    -moz-opacity:0.9;
+    opacity: 0.9;
+}
+.opacity-10,
+.hover-opacity-10:hover,
+.active-opacity-10:active,
+.focus-opacity-10:focus,
+.visited-opacity-10:visited
+{
+    filter:alpha(opacity=100);
+    -moz-opacity:1;
+    opacity: 1;
+}
