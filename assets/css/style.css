@@ -1,0 +1,157 @@
+/*.logo{
+    text-decoration: none;
+    text-indent: -999999px;
+    width: 75px;
+    height: 75px;
+    background: url("/images/logo.png")no-repeat center center /cover;
+}*/
+
+/*nav{
+    position: fixed !important;
+    top: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    background: transparent;
+    z-index: 100000;
+}*/
+
+.nav-1 a{
+    text-transform: uppercase;
+    color: #730961;
+    font-size: .8em;
+    font-weight: 500;
+    position: relative;
+    top:0;
+    -webkit-transition: .2s;
+    -moz-transition: .2s;
+    -ms-transition: .2s;
+    -o-transition: .2s;
+    transition: .2s;
+}
+
+.nav-1 a.item-2{
+    color: white;
+    padding: 8px 30px !important;
+}
+
+.nav-1 a:hover{
+    top:-1px;
+    -ms-transform: scale(1.02, 1.02);
+    -webkit-transform: scale(1.02, 1.02);
+    transform: scale(1.02, 1.02);
+}
+
+.form-1{
+    background: rgba(255,255,255,.2);
+    -webkit-border-radius:40px;
+    -moz-border-radius:40px;
+    border-radius:40px;
+    padding: 10px 12px;
+}
+
+.form-1 input{
+    border: none;
+    -webkit-border-radius:30px;
+    -moz-border-radius:30px;
+    border-radius:30px;
+    height:50px;
+    padding: 0 20px;
+    font-size: .8rem;
+}
+
+.form-1 button{
+    -webkit-border-radius:30px;
+    -moz-border-radius:30px;
+    border-radius:30px;
+    height:50px;
+    width: 50px;
+}
+
+
+
+.cat-1{
+    display: block;
+    text-align: center;
+    font-size: .8em;
+    color: #7f7f7f;
+    -webkit-transition: .2s;
+    -moz-transition: .2s;
+    -ms-transition: .2s;
+    -o-transition: .2s;
+    transition: .2s;
+    margin-bottom: 16px;
+}
+.cat-1 i{
+    font-size: 2.6em;
+    clear: both;
+    display: block;
+    margin-bottom: 5px;
+}
+
+.cat-1:hover{
+    text-decoration: none;
+    color: #7f7f7f;
+    -webkit-transform: scale(0.9 , 0.9);
+    -moz-transform: scale(0.9 , 0.9);
+    -ms-transform: scale(0.9 , 0.9);
+    -o-transform: scale(0.9 , 0.9);
+    transform: scale(0.9 , 0.9);
+}
+
+
+
+
+.box-1{
+    display: block;
+    width: 100%;
+    border:solid 1px #efefef;
+    margin-bottom: 30px;
+}
+
+.box-1 .photo{
+    display: block;
+    width: 100%;
+    height: 200px;
+}
+
+.box-1 .cat-2{
+    display: block;
+    padding: 10px 0px 5px;
+    margin: 0 15px;
+    color: #1ebea5;
+    font-size: .8em;
+    border-bottom: solid 1px #efefef;
+}
+
+.box-1 .name{
+    font-weight:bold;
+    padding: 5px 15px;
+    font-size: 1em;
+}
+
+.box-1 .local{
+    font-size: .9em;
+    font-weight:100;
+    padding: 5px 15px;
+}
+
+.box-1 .local span{
+    width: 50%;
+    display: block;
+    float: left;
+    margin-bottom: 5px;
+}
+
+.box-1 .value{
+    border-top: solid 1px #efefef;
+    padding: 5px 0px 10px;
+    margin: 0 15px;
+    color: #730961;
+    font-weight: bold;
+}
+
+.box-1 .value span{
+    font-weight:100;
+}
+
