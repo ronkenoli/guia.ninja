@@ -68,6 +68,60 @@
     width: 50px;
 }
 
+@media (max-width: 991px){
+    .form-1{
+        -webkit-border-radius:10px;
+        -moz-border-radius:10px;
+        border-radius:10px;
+    }
+
+    .form-1 .col{
+        flex-basis: auto;
+    }
+
+    .form-1 input{
+        margin-bottom: 10px;
+    }
+
+    .form-1 button{
+        margin: 0 auto;
+        width: 240px;
+    }
+
+    .form-1 button strong{
+        display: inline-block !important;
+        padding-right: 10px;
+    }
+}
+
+
+
+.form-2 input{
+    border: none;
+    -webkit-border-radius:30px;
+    -moz-border-radius:30px;
+    border-radius:30px;
+    height:40px;
+    padding: 0 20px;
+    font-size: .8rem;
+}
+
+.form-2 button{
+    -webkit-border-radius:30px;
+    -moz-border-radius:30px;
+    border-radius:30px;
+    height:40px;
+    width: 40px;
+}
+
+
+@media (max-width: 991px){
+    .form-2 button strong{
+        display: inline-block !important;
+        padding-right: 10px;
+    }
+}
+
 
 
 .cat-1{
@@ -100,6 +154,35 @@
 }
 
 
+.cat-2{
+    display: block;
+    text-align: center;
+    font-size: 1em;
+    color: #56224c;
+    -webkit-transition: .2s;
+    -moz-transition: .2s;
+    -ms-transition: .2s;
+    -o-transition: .2s;
+    transition: .2s;
+    margin-bottom: 16px;
+}
+.cat-2 i{
+    font-size: 2.6em;
+    clear: both;
+    display: block;
+    margin-bottom: 5px;
+}
+
+.cat-2:hover{
+    text-decoration: none;
+    color: #7f7f7f;
+    -webkit-transform: scale(0.9 , 0.9);
+    -moz-transform: scale(0.9 , 0.9);
+    -ms-transform: scale(0.9 , 0.9);
+    -o-transform: scale(0.9 , 0.9);
+    transform: scale(0.9 , 0.9);
+}
+
 
 
 .box-1{
@@ -107,6 +190,7 @@
     width: 100%;
     border:solid 1px #efefef;
     margin-bottom: 30px;
+    position: relative;
 }
 
 .box-1 .photo{
@@ -153,5 +237,48 @@
 
 .box-1 .value span{
     font-weight:100;
+}
+
+
+.map-responsive{
+    overflow:hidden;
+    padding-bottom:50%;
+    position:relative;
+    height:0;
+}
+.map-responsive iframe{
+    left:0;
+    top:0;
+    height:100%;
+    width:100%;
+    position:absolute;
+}
+
+@media (max-width: 767px){
+    .tag-1{
+        display: inline-block;
+        margin-bottom: 10px;
+    }
+
+    .mini-header{
+        display: block;
+        width: 100%;
+    }
+
+    .mini-header .float-left{
+        display: block;
+        width: 100%;
+    }
+
+    .mini-header .logo-cliente {
+        max-height: inherit !important;
+    }
+
+    .mini-header h1{
+        text-align: center !important;
+    }
+    .mini-header .lead{
+        text-align: center !important;
+    }
 }
 
